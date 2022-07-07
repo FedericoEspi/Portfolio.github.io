@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.root{
+    background-color: rgb(225, 225, 225);
+    font-family:'Roboto', sans-serif;
+    color: black;
+    padding: 3% 3% 3% 3%;
+    text-align: center;
+}
+
+/*NavBar*/
+.divHead{
+    margin-top: 120px;
+}
+
+
+.imgButton{
+    border-radius: 30px;
+    height: 70px;
+    width: 200px;
+}
+
+.imgButton:hover{
+    box-shadow: 3px 3px 3px rgb(118, 118, 107);
+}
+
+/*Header*/
+.linkFederico{
+    text-decoration: none;
+}
+
+.federico{
+    font-size: 45px;
+    border-radius: 50px;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(118, 118, 107);
+    text-shadow: 3px 3px 3px rgb(165, 120, 255);
+    color: rgb(146, 52, 253);
+}
+
+.federico:hover{
+    background-color: rgb(197, 197, 197);
+}
+
+/*About me*/
+.titleAboutMe{
+    text-shadow: 3px 3px 3px rgb(118, 118, 107);
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.aboutMe{
+    font-size: 25px;
+    margin-top: 2.5%;
+    border:solid 0.5px rgb(118, 118, 107);
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(118, 118, 107); 
+}
+
+.plataforma5{
+    width: 200px;
+    height: 30px;
+}
+
+.plataformaButton{
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: 3px 3px 3px rgb(118, 118, 107);
+}
+
+
+/*Projects*/
+.TitleProjects{
+    margin-top: 200px;
+    text-shadow: 3px 3px 3px rgb(118, 118, 107);
+    font-size: 50px;
+}
+
+.divProjects{
+    margin-top: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.cardProject{
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+    box-shadow: 3px  3px 3px rgb(118, 118, 107);
+}
+
+.proyectCardBody{
+    color: white;
+    background-color: rgb(118, 118, 107);
+}
+
+.proyectButton{
+    background-color: black;
+}
+
+
+/*Mailbox(form)*/
+.divForm{
+    margin-top: 200px;
+    padding: 5%;
+    border:solid 0.5px rgb(118, 118, 107);
+    box-shadow: 3px  3px 3px rgb(118, 118, 107);
+}
+
+/*/page/federico*/
+.backMasTitle{
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2Federico{
+    font-size: 50px;
+    text-shadow: 3px 3px 3px rgb(165, 120, 255);
+    color: rgb(146, 52, 253);
+}
+
+.buttonHomeFederico{
+    display: flex;
+    border-style: none;
+    border-radius: 80px;
+    box-shadow: 3px 3px 3px rgb(118, 118, 107);
+}
+
+.buttonHomeFederico:hover{
+    opacity: 75%;
+}
+
+.imgHomePage{
+    width: 180px;
+    height: 150px;
+    border-radius: 80px;
+}
+
+.fotoMasTextos{
+    margin-top: 100px;
+    padding: 3px;
+    border: solid 2px rgb(118, 118, 107);
+    box-shadow: 3px  3px 3px rgb(118, 118, 107);
+    display: flex;
+    justify-content: space-between;
+}
+
+.fotos{
+    width: 300px;
+    height: auto;
+}
+
+.textosSobreMi{
+    font-size: 20px;
+}
