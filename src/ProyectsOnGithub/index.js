@@ -13,6 +13,13 @@ let Proyectos = [
     text: "Gracias a la API gratuita que nos entrega Discord se pueden crear ingeniosos bots para automatizar tareas de utilidad, en mi caso mi bot que ya se inicia y se conecta con el servidor solo sabe devolver la hora de una manera muy amable, pero no lo subestimen porque próximamente va a aprender nuevos e increíbles trucos.",
     button: "https://github.com/FedericoEspi/DiscordBot",
   },
+  {
+    id: 3,
+    title: "Portfolio",
+    img: "https://static.wixstatic.com/media/9ae4e8_5396999d2d244569b280a8f027ca4897.jpg/v1/fill/w_660,h_388,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9ae4e8_5396999d2d244569b280a8f027ca4897.jpg",
+    text: "Este es mi portfolio personal en el cual voy plasmando todo lo aprendido día a día y por el cual me pueden conocer en más profundidad y no solo a través del código.",
+    button: "https://github.com/FedericoEspi/Portfolio",
+  },
 ];
 
 export default Proyectos;
