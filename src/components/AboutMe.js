@@ -1,7 +1,7 @@
 const AboutMe = () => {
   return (
     <div>
-      <h2 className="titleAboutMe">About Me</h2>
+      <h2 className="titleAboutMe">Sobre mí</h2>
       <p className="aboutMe">
         Durante mucho tiempo me esforcé por resaltar en trabajos de poco vuelo,
         eventualmente lo lograba pero sin embargo me fui dando cuenta que esos
